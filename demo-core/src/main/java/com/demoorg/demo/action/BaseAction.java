@@ -44,7 +44,7 @@ public abstract class BaseAction {
 	 */
 	private transient PageContext pageContext;
 	/**
-	 * To hold sling request.
+	 * To hold sling r
 	 */
 	private transient SlingHttpServletRequest slingRequest;
 	/**
