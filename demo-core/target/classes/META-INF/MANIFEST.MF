@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1380884664416
+Build-Jdk: 1.6.0_22
+Built-By: knirmal
+Bundle-Description: This build file builds the core bundle
+Bundle-ManifestVersion: 2
+Bundle-Name: demoorgdemo-core
+Bundle-SymbolicName: demo-core
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+DynamicImport-Package: *
+Embed-Directory: src/main/resources
+Export-Package: com.demoorg.demo.service;uses:="com.demoorg.demo.model";
+ version="0.0.1.SNAPSHOT",com.demoorg.demo.action;uses:="com.demoorg.dem
+ o.model,org.apache.sling.api,com.demoorg.demo.service";version="0.0.1.S
+ NAPSHOT",com.demoorg.demo.workflow;version="0.0.1.SNAPSHOT",com.demoorg
+ .demo.wcm.tags.functions;uses:="org.apache.sling.api,com.demoorg.demo.w
+ cm.util";version="0.0.1.SNAPSHOT",com.demoorg.demo.model;version="0.0.1
+ .SNAPSHOT",com.demoorg.demo.wcm.util;uses:="org.apache.sling.api";versi
+ on="0.0.1.SNAPSHOT",com.demoorg.demo.taglib;uses:="org.apache.sling.api
+ ";version="0.0.1.SNAPSHOT"
+Import-Package: org.apache.sling.api;version="[2.1.0,2.2.4]",org.osgi.fr
+ amework;version="[1.5.0,2.0.0)"
+Service-Component: OSGI-INF/com.demoorg.demo.service.RegistrationService
+ .xml,OSGI-INF/com.demoorg.demo.workflow.UpdateUserProfile.xml
+Sling-Test-Regexp: .*Testing
+Tool: Bnd-1.50.0
