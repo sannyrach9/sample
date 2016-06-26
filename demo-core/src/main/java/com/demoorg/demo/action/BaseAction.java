@@ -40,7 +40,7 @@ public abstract class BaseAction {
 	 */
 	private static final Logger LOG = LoggerFactory.getLogger(BaseAction.class);
 	/**
-	 * To hold the page context.
+	 * To hold the page ramu
 	 */
 	private transient PageContext pageContext;
 	/**
