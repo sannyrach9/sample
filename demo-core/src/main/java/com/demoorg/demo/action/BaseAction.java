@@ -48,7 +48,7 @@ public abstract class BaseAction {
 	 */
 	private transient SlingHttpServletRequest slingRequest;
 	/**
-	 * To hold the sling response.
+	 * To hold the slixxxxxx
 	 */
 	private transient SlingHttpServletResponse slingResponse;
 
